@@ -1,0 +1,69 @@
+.container {
+  position: relative;
+}
+
+.container #img1 {
+  position: absolute;
+  z-index: 1;
+  width: 1265px;
+  height: 711.56px;
+}
+
+.container h1 {
+  position: absolute;
+  z-index: 2;
+  top:40px;
+  left:3%;
+  font-size: 20px;
+  line-height: 150%;
+  color: white;
+  font-weight: bold;
+  font-style: normal;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+@keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(10%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+.container h2 {
+    position: absolute;
+    top: 160px;
+    left:3%;
+  z-index: 2;
+  font-size: 14px;
+  color: white;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+.container p {
+  z-index: 2;
+  position: relative;
+  top: 195px;
+  left:3%;
+  font-size: 10px;
+  color: white;
+  line-height: 22px;
+  animation-name: fade-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+a {
+    text-decoration: none; /* 移除下划线 */
+    color:white; /* 更改链接颜色，这里使用红色作为示例 */
+}
+
