@@ -92,25 +92,25 @@ a {
   width:20%;
   top:5px;
   z-index: 5;
-  color:#262626;
+  color:#154193;
   position:absolute;
   font-size: 38px;
   line: height 1.3;
   width: auto;
 }
 
-.spring {
-  color: #79ff68; 
+.lucky {
+  color: #D9F3FF; 
 }
 
 
 .text p{
-  width:600px;
+  width:500px;
   position:absolute;
   top:8%;
-  left:580px;
+  left:680px;
   text-align:right;
-  color:#FCFCF2;
+  color:#fff9f5;
   font-size: 10px;
   line-height: 2;
   padding: 0 15px; /* 添加padding或margin以确保内容不紧贴屏幕边缘 */
@@ -120,7 +120,7 @@ a {
 .container3 #img1 {
   width: 1245px;
   height: 570px;
-}
+  }
 
 
 .container4 {
@@ -189,6 +189,17 @@ a {
       max-width:500px; /* Maximum width of each image */
       object-position: right; }
 
+
+ .container10{
+        max-width: 1000px;
+        padding-right: 30px;
+        padding-left: 310px;
+        padding-top: 100px;
+      }
+      
+      .container10 #img11 {
+        max-width:500px; /* Maximum width of each image */; }
+
 .container9 {
         display: flex;
         justify-content: space-around; /* Distribute space around images */
@@ -197,7 +208,6 @@ a {
         padding-top: 100px;
         padding-right: 30px;
         max-width: 1000px;
-        padding-bottom: 30px;
       }
       .container9 img {
         flex:auto; /* 可以将容器内的子元素平均分配可用的空间，使它们具有相同的宽度或高度。 */
@@ -205,10 +215,34 @@ a {
         margin: 30px; /* Space between images */
         position:relative;}
 
+
+ .container11{
+          max-width: 1000px;
+          padding-right: 30px;
+          padding-left: 315px;
+          padding-top: 100px;
+        }
+        
+        .container11 #gif {
+          max-width:860px; /* Maximum width of each image */; }
+
+.container12{
+      max-width: 1000px;
+      padding-right: 30px;
+      padding-left: 240px;
+      padding-top: 100px;
+    }
+
+    .container12 #img12 {
+      max-width:600px;
+      padding-left: 200px;
+     }
+
 .copyright{
   font-size:8px;
   color:grey;
   padding-left: 700px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 

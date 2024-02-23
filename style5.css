@@ -92,23 +92,23 @@ a {
   width:20%;
   top:5px;
   z-index: 5;
-  color:#262626;
+  color:#C6430F;
   position:absolute;
   font-size: 38px;
   line: height 1.3;
   width: auto;
 }
 
-.spring {
-  color: #79ff68; 
+.romance {
+  color: #FBF3CA; 
 }
 
 
 .text p{
-  width:600px;
+  width:300px;
   position:absolute;
   top:8%;
-  left:580px;
+  left:880px;
   text-align:right;
   color:#FCFCF2;
   font-size: 10px;
@@ -119,7 +119,7 @@ a {
 
 .container3 #img1 {
   width: 1245px;
-  height: 570px;
+  height: 820px;
 }
 
 
@@ -165,6 +165,22 @@ a {
     position:relative;
     max-width: 400px; }
 
+.container11 {
+      display: flex;
+      flex-wrap: nowrap; /* 不换行 */
+      padding-left: 280px;
+      padding-top: 100px;
+      padding-right: 30px;
+      max-width: 1000px;
+      display: flex;
+      align-items: flex-end; 
+    }
+.container11 img {
+      margin: 30px; /* Space between images */
+      flex:auto;
+      position:relative;
+      max-width: 400px; }
+      
 .container7{
       max-width: 1000px;
       padding-right: 30px;
@@ -185,9 +201,19 @@ a {
       padding-top: 100px;
     }
     
-    .container8 #img8 {
+.container10 #img11 {
       max-width:500px; /* Maximum width of each image */
       object-position: right; }
+ .container10{
+        max-width: 1000px;
+        padding-right: 30px;
+        padding-left: 310px;
+        padding-top: 100px;
+      }
+      
+      .container8 #img8 {
+        max-width:500px; /* Maximum width of each image */
+        object-position: right; }
 
 .container9 {
         display: flex;

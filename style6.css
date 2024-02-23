@@ -92,23 +92,23 @@ a {
   width:20%;
   top:5px;
   z-index: 5;
-  color:#262626;
+  color:#B50401;
   position:absolute;
   font-size: 38px;
   line: height 1.3;
   width: auto;
 }
 
-.spring {
-  color: #79ff68; 
+.lucky {
+  color:#ffb030; 
 }
 
 
 .text p{
-  width:600px;
+  width:500px;
   position:absolute;
   top:8%;
-  left:580px;
+  left:680px;
   text-align:right;
   color:#FCFCF2;
   font-size: 10px;
@@ -119,8 +119,8 @@ a {
 
 .container3 #img1 {
   width: 1245px;
-  height: 570px;
-}
+  height: 622.5px;
+  }
 
 
 .container4 {
@@ -159,11 +159,27 @@ a {
     display: flex;
     align-items: flex-end; 
   }
-.container6 img {
+.container17 img {
     margin: 30px; /* Space between images */
     flex:auto;
     position:relative;
     max-width: 400px; }
+
+    .container17 {
+      display: flex;
+      flex-wrap: nowrap; /* 不换行 */
+      padding-left: 280px;
+      padding-top: 100px;
+      padding-right: 30px;
+      max-width: 1000px;
+      display: flex;
+      align-items: flex-end; 
+    }
+  .container6 img {
+      margin: 30px; /* Space between images */
+      flex:auto;
+      position:relative;
+      max-width: 400px; }
 
 .container7{
       max-width: 1000px;
@@ -189,6 +205,38 @@ a {
       max-width:500px; /* Maximum width of each image */
       object-position: right; }
 
+
+ .container10{
+        max-width: 1000px;
+        padding-right: 30px;
+        padding-left: 310px;
+        padding-top: 100px;
+      }
+      
+      .container10 #img11 {
+        max-width:500px; /* Maximum width of each image */; }
+
+ .container14{
+          max-width: 1000px;
+          padding-right: 30px;
+          padding-left: 680px;
+          padding-top: 100px;
+        }
+        
+ .container14 #img14 {
+          max-width:500px; /* Maximum width of each image */
+          object-position: right; }
+
+.container15{
+            max-width: 1000px;
+            padding-right: 30px;
+            padding-left: 310px;
+            padding-top: 100px;
+          }
+          
+.container15 #img15 {
+            max-width:500px; /* Maximum width of each image */; }
+    
 .container9 {
         display: flex;
         justify-content: space-around; /* Distribute space around images */
@@ -197,7 +245,6 @@ a {
         padding-top: 100px;
         padding-right: 30px;
         max-width: 1000px;
-        padding-bottom: 30px;
       }
       .container9 img {
         flex:auto; /* 可以将容器内的子元素平均分配可用的空间，使它们具有相同的宽度或高度。 */
@@ -205,10 +252,54 @@ a {
         margin: 30px; /* Space between images */
         position:relative;}
 
-.copyright{
+
+ .container11{
+          max-width: 1000px;
+          padding-right: 30px;
+          padding-left: 315px;
+          padding-top: 100px;
+        }
+        
+        .container11 #gif {
+          max-width:860px; /* Maximum width of each image */; }
+
+.container16{
+            max-width: 1000px;
+            padding-right: 30px;
+            padding-left: 315px;
+            padding-top: 100px;
+          }
+          
+.container16 #img16 {
+            max-width:860px; /* Maximum width of each image */; }
+          .container12{
+      max-width: 1000px;
+      padding-right: 30px;
+      padding-left: 240px;
+      padding-top: 100px;
+    }
+
+    .container12 #img12 {
+      max-width:600px;
+      padding-left: 200px;
+     }
+
+      
+.container13{
+      max-width: 1000px;
+      padding-right: 30px;
+      padding-left: 240px;
+      padding-top: 100px;
+    }
+    
+    .container13 #img13 {
+      max-width:800px; /* Maximum width of each image */}
+
+     .copyright{
   font-size:8px;
   color:grey;
   padding-left: 700px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
 
